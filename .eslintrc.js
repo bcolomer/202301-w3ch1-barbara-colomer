@@ -2,6 +2,7 @@ module.exports = {
   env: {
     browser: true,
     es2021: true,
+    jest: true,
   },
   extends: 'xo',
   overrides: [
@@ -14,8 +15,5 @@ module.exports = {
     ecmaVersion: 'latest',
     sourceType: 'module',
   },
-  rules: {
-    indent: ['error', 2],
-    'object-curly-spacing': ['error', 'always'],
-  },
+  rules: {},
 };

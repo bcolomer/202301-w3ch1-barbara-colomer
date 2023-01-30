@@ -1,0 +1,33 @@
+{
+  "name": "202301-w3ch1",
+  "version": "1.0.0",
+  "description": "Tenemos la siguiente lista de productos (https://dummyjson.com/products?limit=100). Construir y hacer test sobre ese array de productos:",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "husky install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bcolomer/202301-w3ch1-barbara-colomer.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bcolomer/202301-w3ch1-barbara-colomer/issues"
+  },
+  "homepage": "https://github.com/bcolomer/202301-w3ch1-barbara-colomer#readme",
+  "devDependencies": {
+    "@babel/plugin-transform-modules-commonjs": "^7.20.11",
+    "husky": "^8.0.0"
+  },
+  "babel": {
+    "env": {
+      "test": {
+        "plugins": [
+          "@babel/plugin-transform-modules-commonjs"
+        ]
+      }
+    }
+  }
+}
